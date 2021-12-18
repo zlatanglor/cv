@@ -1,0 +1,118 @@
+@media only screen and (max-width: 767px){
+    .d_flex {
+        display: block;
+        max-width: 767px;
+    }
+    aside{
+        display: flex;
+        width: 100%;
+        padding: 15px 0;
+    }
+    aside .container{
+        display: flex;
+        max-width: 517px;
+        margin: auto;
+        padding: 0 15px 0 0;
+        flex-wrap: wrap;
+    }
+    .sidebar_photo{
+        margin: 0 15px;
+        flex: 1 0 auto;
+    }
+    .sidebar_photo img{
+        max-width: 220px;
+        margin: 0;
+        object-fit: cover;
+    }
+    aside h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contacs a {
+        font-size: 12px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .contacs a:last-of-type{
+        margin-right: 0;
+    }
+    .contacs{
+        width: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .tech_skills{
+        order: 2;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .languages{
+        order: 3;
+        width: 50%;
+    }
+    .address{
+        order: 4;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .tech_skills li, .languages li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .address p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    section {
+        width: 100%;
+        padding:40px 0;
+    }
+    .about h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about h1 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .about {
+        margin-bottom: 20px;
+    }
+    .project {
+        margin-bottom: 25px;
+    }
+    .work_experience {
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .sidebar_photo{
+        display: none;
+    }
+    aside .container{
+        max-width: 605px;
+        padding: 0 15px;
+    }
+    .d_flex{
+        max-width: 575px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section {
+        padding: 20px 0;
+    }
+    .about h3 {
+        font-size: 18px;
+    }
+    .about h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .project ol {
+        list-style: none;
+        padding: 0;
+    }
+}
