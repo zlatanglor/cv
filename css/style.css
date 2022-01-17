@@ -215,6 +215,9 @@ section .container{
 .education p span, .work_experience p span{
     color: #000000;
 }
+.education .hillel p:first-of-type{
+    margin-bottom: 10px;
+}
 .hillel{
     margin-bottom: 15px;
 }
