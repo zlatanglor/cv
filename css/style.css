@@ -237,4 +237,7 @@ section .container{
     line-height: 24px;
     color: #595959;
 }
+.work_experience div + div{
+    margin-top: 15px;
+}
 
