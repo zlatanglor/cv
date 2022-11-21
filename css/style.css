@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     background: #F5F7FA;
@@ -220,6 +221,12 @@ section .container{
 }
 .hillel{
     margin-bottom: 15px;
+}
+.hillel a{
+    color: black;
+}
+.hillel a:hover{
+    color: #FB6D3A;
 }
 .work_experience h5 span{
     color: #FB6D3A;
